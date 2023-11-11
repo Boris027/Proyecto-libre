@@ -116,7 +116,7 @@ header{
     visibility: visible;
     transform:translate(-50%,-50%);
     position: absolute;
-    top: 72%;
+    top: 62%;
     left: 50%;
     border-color: aqua;
     border:none;
@@ -228,14 +228,14 @@ header{
 
 
 
-
+/*fuentes de texto*/
 @font-face {
     font-family: textonormal;
     src: url(../fonts/Diary\ Santa.ttf);
 }
 
 
-
+/*responsividad para movil */
 @media only screen and (width<1000px){
     #hero h1{font-size: 1.5em;}
     #hero button {font-size:1em ;
@@ -267,5 +267,15 @@ header{
     #section3 ul{margin-left: 10%; margin-right: 10%;}
     #section4 img{width: 40%;}
     #botonnav{width: 30%;}
+}
+
+@media only screen and (height<470px){
+   
+    #hero button{top:80%}
+}
+
+@media only screen and (height<200px){
+   
+    #hero button{top:90%}
 }
 
