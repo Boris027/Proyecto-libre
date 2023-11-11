@@ -1,0 +1,255 @@
+body{
+    
+    margin: 0; padding: 0;
+    font-family: sans-serif;
+    background-color: #C4080A;
+}
+
+a{
+    text-decoration: none;
+    color: Black;
+    margin-right: 10px;
+}
+
+header{
+    
+    display: flex;
+    height: 70px;
+    background-color: #C4080A;
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+#nav{
+    
+    position: absolute;
+    right: 2%;
+    visibility: visible;
+}
+
+#botonnav{
+    width: 25%;
+    visibility: hidden;
+    text-align: right;
+}
+#navlist img{
+    position: absolute;
+    width: 20%; 
+    top: 0px;
+    right: 0px;
+}
+
+#navlist li{
+    
+    padding-top: 10px;
+}
+#navlist{
+    
+    position: absolute;
+    visibility: hidden;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #C4080A;
+    padding: 2rem;
+    box-shadow: 0 0 0 100vmax  rgba(0,0,0,.5);
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.imagen img{
+    width: 700px;
+}
+
+
+
+
+
+
+
+#Wrapper{
+    
+    margin:auto;
+    width: 100%;
+    
+    
+}
+#hero{
+    
+    background-image: url(../img/Flash.jpg);
+    background-size: cover;
+    background-position: right;
+    height: 95vh;
+    border-bottom: 20px solid rgb(0, 0, 0);
+    
+}
+
+#hero h1{
+    visibility: visible;
+    text-align: center;
+    transform:translate(-50%,-50%);
+    position: absolute;
+    color: #ffffff;
+    left: 50%;
+    top: 50%;
+    font-size:1.8em ;
+
+}
+#hero button{
+    visibility: visible;
+    transform:translate(-50%,-50%);
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    border-color: aqua;
+    border:none;
+    border-radius: 20px;
+    padding:10px 30px;
+    font-size:1.8em ;
+    
+}
+#hero button:hover {background-color: #C4080A;}
+
+#wrapsecciones{
+    
+    border-radius: 10px;
+    text-align: center;
+    
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 2%;
+    width: 70%;
+    border-bottom: 20px solid white;
+    
+}
+
+#wrapsecciones p{
+   margin-left: 10%;
+   margin-right: 10%;
+    
+}
+
+
+
+#section1 img{
+    margin-top: 10px;
+    position: relative;
+    margin-bottom: -10px;
+    
+    
+    
+    width: 20%;
+    visibility: visible;
+
+}
+
+#wrapsecciones h1{
+    padding-top: 4%;
+   
+    text-align: center;
+    border-bottom: #C4080A solid  5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    
+}
+#section1 p{
+    
+    text-align: center;
+    
+}
+
+#section2 img{
+    position: relative;
+    width: 10%;
+}
+
+
+#section3 li{
+    
+    padding-top: 10%;
+    text-align: left;
+    
+}
+#section3 ul{
+    list-style-image: url(../img/rayo\ ul.png);
+    
+    margin-left: 35%;
+    margin-right: 35%;
+    
+}
+
+
+#section4{
+    
+    
+    
+}
+#section4 img{
+    
+    width: 20%;
+    
+}
+
+
+
+
+
+#pie{
+    margin-top: 1%;
+    border-top: 20px solid rgb(0, 0, 0);
+    
+    background-size: cover;
+    background-position: center;
+    height: 10vw;
+}
+
+#footer {
+    
+    width: 80%;
+    margin-left: 20%;
+}
+
+
+
+
+
+
+
+
+@media only screen and (width<1000px){
+    #hero h1{font-size: 1.5em;}
+    #hero button {font-size:1em ;
+    }
+    #section1 img{width: 50%;}
+    #wrapsecciones h1{margin-left: 20%; margin-right: 20%;}
+    #wrapsecciones{width: 90%;}
+    #section2 img{width: 20%;}
+    #section3 ul{margin-left: 20%; margin-right: 20%;}
+    #nav{visibility: hidden;}
+    #botonnav{visibility: visible;}
+}
+
+@media only screen and (width<700px){
+    #hero h1{font-size: 1em;}
+    #hero button {font-size:0.8em ;}
+    
+    #section1 h1{margin-left: 5%; margin-right: 5%;}
+    #section3 ul{margin-left: 10%; margin-right: 10%;}
+    #section4 img{width: 40%;}
+    #botonnav{width: 30%;}
+}
