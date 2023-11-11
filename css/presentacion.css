@@ -116,7 +116,7 @@ header{
     visibility: visible;
     transform:translate(-50%,-50%);
     position: absolute;
-    top: 62%;
+    top: 72%;
     left: 50%;
     border-color: aqua;
     border:none;
@@ -258,3 +258,14 @@ header{
     #section4 img{width: 40%;}
     #botonnav{width: 30%;}
 }
+
+@media only screen and (width<700px){
+    #hero h1{font-size: 1em;}
+    #hero button {font-size:0.8em ;}
+    
+    #section1 h1{margin-left: 5%; margin-right: 5%;}
+    #section3 ul{margin-left: 10%; margin-right: 10%;}
+    #section4 img{width: 40%;}
+    #botonnav{width: 30%;}
+}
+
