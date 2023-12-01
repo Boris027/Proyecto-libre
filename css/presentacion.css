@@ -160,6 +160,7 @@ header{
 
 }
 
+/*este es el formate del wrapper que hace que todos los titulos tengan ese tamaño y subtitulo rojo*/
 #wrapsecciones h1{
     padding-top: 4%;
    
@@ -169,6 +170,8 @@ header{
     margin-right: 35%;
     
 }
+/*fin formateo titulo wrapper*/
+
 #section1 p{
     
     text-align: center;
@@ -196,19 +199,46 @@ header{
 }
 
 
-#section4{
+
+
+/*toda la galeria*/
+#galeria{
+    display: grid;
+    grid-template-columns: auto auto auto;
     
-    
+    margin-left: 7%;
     
 }
-#section4 img{
+#galeria img{
+    width: 80%;
+    padding-bottom: 15px;
+}
+/*final de la galeria*/
+
+#gridtarjeta{
+
+    display: grid;
+    grid-template-columns: auto auto auto ;
+}
+#gridtarjeta img{
     
-    width: 20%;
+    padding-top: 15px;
+    width: 50%;
+    border-radius:  50%;
     
 }
-
-
-
+#gridtarjeta h2{
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom: 3px solid black;
+}
+#recuadro{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: red;
+    border-radius: 10px;
+    margin-top: 15px;
+}
 
 
 #pie{
@@ -255,23 +285,21 @@ header{
     
     #section1 h1{margin-left: 5%; margin-right: 5%;}
     #section3 ul{margin-left: 10%; margin-right: 10%;}
-    #section4 img{width: 40%;}
     #botonnav{width: 30%;}
+    #galeria{grid-template-columns: auto auto; margin-left: 10%;}
+    #gridtarjeta{grid-template-columns: auto auto;}
 }
 
-@media only screen and (width<700px){
-    #hero h1{font-size: 1em;}
-    #hero button {font-size:0.8em ;}
-    
-    #section1 h1{margin-left: 5%; margin-right: 5%;}
-    #section3 ul{margin-left: 10%; margin-right: 10%;}
-    #section4 img{width: 40%;}
-    #botonnav{width: 30%;}
+@media only screen and (width<600px){
+    #galeria{grid-template-columns: auto ; margin-left: 15%; }
+    #gridtarjeta{grid-template-columns: auto ;}
 }
+
 
 @media only screen and (height<470px){
    
     #hero button{top:80%}
+    
 }
 
 @media only screen and (height<200px){
