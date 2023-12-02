@@ -12,22 +12,29 @@
 <body>
 
 <!--este es el boton del sidebar-->
- <div style="position:fixed; right: 5px;">
+ <div id="contenedorsidebar">
     <div id="botonnav" >
-        <img id="botonnav"  src="./img/menú.png" alt="menú simbolo 3 rayas" onclick="mostrar('navlist'),overflow()" >
+            <img id="botonnav"  src="./img/menú.png" alt="menú simbolo 3 rayas" onclick="mostrar('navlist'),overflow()" >
     </div>
  </div>   
 <!--este es el fin del boton del sidebar-->
+
 <nav id="navlist">
     <ul>
         <div id="botonsalirnav" onclick="ocultar('navlist'),mostrar('letrauwu'),mostrar('botonuwu'),overflowexit()">
             <img  id="botonsalirnav" src="./img/salir.png" alt="para salir">
         </div>
         
-        
+        <h1>Inicio</h1>
         <li><a href="./Proyecto libre.html" class="nav.link">Inicio</a></li>
         <li><a href="https://www.youtube.com/watch?v=mUSFzSvsy8A" class="nav-link">Sobre la peli</a></li>
         <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="nav-link">Contacto</a></li>
+        <h1>Secciones</h1>
+        <li><a href="#section1" class="nav-link">Introduccion</a></li>
+        <li><a href="#section2" class="nav-link">¿Quienes somos?</a></li>
+        <li><a href="#section3" class="nav-link">Objetivos</a></li>
+        <li><a href="#section4" class="nav-link">Galeria</a></li>
+        <li><a href="#section5" class="nav-link">Reparto</a></li>
     </ul>
 </nav>
     
@@ -36,9 +43,9 @@
         <header>
             <div class="logo">
                 <a href="./Proyecto libre.html">
+                    
                     <img src="./img/Flash_Logo.ico" alt="logo página">
                 </a>
-                
                 <h2>Dawn of the Flash</h2>
             </div>
             <nav id="nav">
@@ -68,7 +75,7 @@
               </h1>
 
               <a href="https://www.youtube.com/watch?v=mUSFzSvsy8A">
-                <button id="botonuwu">Descubrenos!!</button>
+                    <button id="botonuwu">Descubrenos!!</button>
               </a>
         </section>
 

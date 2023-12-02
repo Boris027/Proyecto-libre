@@ -1,6 +1,10 @@
-/*este va a ser el archivo css destinado a estilizar la pagina web de proyecto libre de lenguaje de marcas
-                        Made By Boris Gallego Ríos*/
-
+/********************************************************/
+/*              Autor: Boris Gallego Ríos               */
+/*       stylesheet for Proyecto libre site       */
+/*                    Version: 2.0                      */
+/*   comment: project for Lenguajes de Marcas - 1ºDAM   */   
+/********************************************************/ 
+html { scroll-behavior: smooth; }
 
 /*el body, esto nos permitirá que el margen sea 0 y padding 0, esto ayuda para hacer el topnav*/
 body{
@@ -50,6 +54,13 @@ header{
 
 
 /*aqui empieza todo el formateo del sidebar*/
+
+#contenedorsidebar{
+    position:fixed; 
+    right: 5px; 
+    top: 15px;
+    
+}
 #nav{
     
     font-family: textonormal;
@@ -58,7 +69,7 @@ header{
     right: 2%;
     visibility: visible;
     z-index: 100;
-    
+   
 }
 
 #botonnav{
@@ -76,6 +87,7 @@ header{
     padding: 5px;
     border-radius: 15px;
     
+    
 }
 #navlist img{
     
@@ -88,11 +100,13 @@ header{
 }
 
 #navlist li{
-    
+    list-style-type: none;
+    text-decoration: none;
     position: sticky;
-    margin-left: 0%;
+    
     font-family: textonormal;
     padding-top: 10px;
+    
 }
 #navlist{
     
@@ -109,6 +123,11 @@ header{
     
 }
 
+
+@keyframes navlist {
+    40%{transform: rotate(15deg)}
+
+}
 /*aqui termina todo el formateo del sidebar*/
 
 
@@ -268,7 +287,7 @@ header{
 #recuadro{
     margin-left: 5%;
     margin-right: 5%;
-    background-color: red;
+    background-color: #C4080A;
     border-radius: 10px;
     margin-top: 15px;
 }
