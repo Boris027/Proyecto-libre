@@ -27,45 +27,65 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    
+    z-index: 100;
     
 }
 #nav{
     font-family: textonormal;
-    position: absolute;
+    position: sticky;
+    top: 0;
     right: 2%;
     visibility: visible;
+    z-index: 100;
+    
 }
 
 #botonnav{
-    
+    position: sticky;
+    top: 0;
     left: 100%;
     width: 25%;
     visibility: hidden;
     text-align: right;
+    
+}
+#botonnav img{
+    
+    background-color: red;
+    padding: 5px;
+    border-radius: 15px;
+    
 }
 #navlist img{
     
-    position: absolute;
+    position: sticky;
+    
     width: 20%; 
-    top: 0px;
-    right: 0px;
+    top: 0;
+    left: 90%;
+    
 }
 
 #navlist li{
+    
+    position: sticky;
+    margin-left: 0%;
     font-family: textonormal;
     padding-top: 10px;
 }
 #navlist{
     
-    position: absolute;
+    position: fixed;
     visibility: hidden;
     top: 0;
     right: 0;
     bottom: 0;
     background-color: #C4080A;
+    margin-left: 70%;
     padding: 2rem;
     box-shadow: 0 0 0 100vmax  rgba(0,0,0,.5);
+    z-index: 100;
+    
 }
 .logo{
     display: flex;
@@ -147,7 +167,7 @@ header{
 #wrapsecciones p{
    margin-left: 10%;
    margin-right: 10%;
-    
+
 }
 
 
@@ -161,7 +181,7 @@ header{
     
     width: 20%;
     visibility: visible;
-
+    z-index: 0;
 }
 
 /*este es el formate del wrapper que hace que todos los titulos tengan ese tamaño y subtitulo rojo*/
@@ -185,6 +205,7 @@ header{
 #section2 img{
     position: relative;
     width: 10%;
+    z-index: 0;
 }
 
 
