@@ -1,3 +1,8 @@
+/*este va a ser el archivo css destinado a estilizar la pagina web de proyecto libre de lenguaje de marcas
+                        Made By Boris Gallego Ríos*/
+
+
+/*el body, esto nos permitirá que el margen sea 0 y padding 0, esto ayuda para hacer el topnav*/
 body{
     
     margin: 0; padding: 0;
@@ -5,12 +10,14 @@ body{
     background-color: #C4080A;
 }
 
+/* estilar la a es para que cuando introduzca un enlace, salga el texto de color negro y sin el subtitulo*/
 a{
     text-decoration: none;
     color: Black;
     margin-right: 10px;
 }
 
+/*aqui empieza todo el formateo del topnav*/
 header{
     font-family: textonormal;
     display: flex;
@@ -21,6 +28,7 @@ header{
     align-items: center;
     padding: 10px;
     
+    
 }
 #nav{
     font-family: textonormal;
@@ -30,11 +38,14 @@ header{
 }
 
 #botonnav{
+    
+    left: 100%;
     width: 25%;
     visibility: hidden;
     text-align: right;
 }
 #navlist img{
+    
     position: absolute;
     width: 20%; 
     top: 0px;
@@ -72,23 +83,13 @@ header{
     justify-content: center;
     margin-top: 20px;
 }
-.imagen img{
-    width: 700px;
-}
+/*aqui termina todo el formateo del topnav*/
 
 
 
 
 
-
-
-#Wrapper{
-    
-    margin:auto;
-    width: 100%;
-    
-    
-}
+/*esta es la seccion hero y su formateo*/
 #hero{
     
     background-image: url(../img/Flash.jpg);
@@ -126,7 +127,10 @@ header{
     
 }
 #hero button:hover {background-color: #C4080A;}
+/*el fin de la seccion hero*/
 
+
+/*este es el wrapper y su formateo*/
 #wrapsecciones{
     font-family: textonormal;
     border-radius: 10px;
@@ -306,4 +310,9 @@ header{
    
     #hero button{top:90%}
 }
+
+
+
+
+
 
