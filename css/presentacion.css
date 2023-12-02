@@ -27,10 +27,31 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    z-index: 100;
+    z-index: 100; 
+}
+.logo{
+    display: flex;
+    align-items: center;
     
 }
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+/*aqui termina todo el formateo del topnav*/
+
+
+
+/*aqui empieza todo el formateo del sidebar*/
 #nav{
+    
     font-family: textonormal;
     position: sticky;
     top: 0;
@@ -87,23 +108,10 @@ header{
     z-index: 100;
     
 }
-.logo{
-    display: flex;
-    align-items: center;
-    
-}
 
-.logo img{
-    height: 50px;
-    margin-right: 10px;
-}
+/*aqui termina todo el formateo del sidebar*/
 
-.imagen{
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-/*aqui termina todo el formateo del topnav*/
+
 
 
 
