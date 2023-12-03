@@ -131,9 +131,7 @@ header{
 
 #navlist a:hover{color: white;}
 
-#navlist2 {
-    transform: translateX(0); /* Muestra la barra lateral moviéndola hacia la posición visible */
-  }
+
 
 
 /*aqui termina todo el formateo del sidebar*/
@@ -275,7 +273,16 @@ header{
 }
 #galeria img{
     width: 80%;
-    padding-bottom: 15px;
+    border: 15px solid red;
+    margin-bottom: 15px;
+    animation-name: hola;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes hola{
+    50%{border: 15px solid yellow;}
 }
 /*final de la galeria*/
 
@@ -403,12 +410,15 @@ transition: 1s;}
 @media only screen and (height<470px){
    
     #hero button{top:80%}
-    
+    #nav{visibility: visible;}
+    #navlist{visibility: hidden;}
+    #botonnav{visibility: hidden;}
 }
 
 @media only screen and (height<200px){
    
     #hero button{top:90%}
+    
 }
 
 
