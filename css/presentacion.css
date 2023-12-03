@@ -4,6 +4,7 @@
 /*                    Version: 2.0                      */
 /*   comment: project for Lenguajes de Marcas - 1ºDAM   */   
 /********************************************************/ 
+*{box-sizing: border-box;}
 html { scroll-behavior: smooth; }
 
 /*el body, esto nos permitirá que el margen sea 0 y padding 0, esto ayuda para hacer el topnav*/
@@ -134,15 +135,7 @@ header{
     transform: translateX(0); /* Muestra la barra lateral moviéndola hacia la posición visible */
   }
 
-@keyframes navlist {
-    0%{
-        
-    }
-    50%{
-        
-    }
 
-}
 /*aqui termina todo el formateo del sidebar*/
 
 
@@ -172,7 +165,7 @@ header{
     left: 50%;
     top: 50%;
     font-size:1.8em ;
-
+    
 }
 #hero button{
     font-family: textonormal;
@@ -186,9 +179,13 @@ header{
     border-radius: 20px;
     padding:10px 30px;
     font-size:1.8em ;
-    
+    transition: 1s;
 }
-#hero button:hover {background-color: #C4080A;}
+#hero button:hover {background-color: #C4080A;
+    font-size: 2em;
+    transition: 1s;
+    }
+
 /*el fin de la seccion hero*/
 
 
@@ -313,6 +310,7 @@ header{
 
 /*inicio del footer*/
 #footer{
+    font-family: textonormal;
     margin-top: 1%;
     border-top: 20px solid rgb(0, 0, 0);
     
@@ -338,8 +336,23 @@ padding-top: 10px;}
     padding-bottom: 10px;
 }
 
-#seccionesfoot img{width: 30px;}
+#seccionesfoot img{width: 40px;
+transition: 1s;}
+
+#redes img{padding-top: 15px; padding-right: 10px; padding-bottom: 10px;}
+
+#redes img:hover{
+    width: 60px;
+    transition: 1s;
+    padding-bottom: 5px;
+}
 /*final del footer*/
+
+
+
+
+
+
 
 
 /*fuentes de texto*/
@@ -352,8 +365,7 @@ padding-top: 10px;}
 /*responsividad para movil */
 @media only screen and (width<1000px){
     #hero h1{font-size: 1.5em;}
-    #hero button {font-size:1em ;
-    }
+    #hero button {font-size:1em ;}
     #section1 img{width: 50%;}
     #wrapsecciones h1{margin-left: 20%; margin-right: 20%;}
     #wrapsecciones{width: 90%;}
@@ -382,6 +394,9 @@ padding-top: 10px;}
     #galeria{grid-template-columns: auto ; margin-left: 15%; }
     #gridtarjeta{grid-template-columns: auto ;}
     #seccionesfoot{grid-template-columns:  auto;}
+    #redes p{display: block; margin-left: 20%;}
+    #desplazamiento{margin-left: 20%;}
+    
 }
 
 
