@@ -108,6 +108,11 @@ header{
     padding-top: 10px;
     
 }
+#navlist h1{
+    border-bottom: 5px solid black;
+    display: block;
+
+}
 #navlist{
     
     position: fixed;
@@ -123,9 +128,19 @@ header{
     
 }
 
+#navlist a:hover{color: white;}
+
+#navlist2 {
+    transform: translateX(0); /* Muestra la barra lateral moviéndola hacia la posición visible */
+  }
 
 @keyframes navlist {
-    40%{transform: rotate(15deg)}
+    0%{
+        
+    }
+    50%{
+        
+    }
 
 }
 /*aqui termina todo el formateo del sidebar*/
