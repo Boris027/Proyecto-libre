@@ -329,10 +329,16 @@ header{
     display: grid;
     grid-template-columns: auto auto auto;
 }
+
+#seccionesfoot p{display: block; margin: auto;
+padding-top: 10px;}
 #seccionesfoot div{
+    padding-top: 10px;
     padding-right: 20px;
     padding-bottom: 10px;
 }
+
+#seccionesfoot img{width: 30px;}
 /*final del footer*/
 
 
@@ -355,6 +361,8 @@ header{
     #section3 ul{margin-left: 20%; margin-right: 20%;}
     #nav{visibility: hidden;}
     #botonnav{visibility: visible;}
+    #seccionesfoot{grid-template-columns: auto ;}
+    #seccionesfoot div{border-bottom: 2px solid gray;}
 }
 
 @media only screen and (width<700px){
@@ -366,8 +374,8 @@ header{
     #botonnav{width: 30%;}
     #galeria{grid-template-columns: auto auto; margin-left: 10%;}
     #gridtarjeta{grid-template-columns: auto auto;}
-    #seccionesfoot{grid-template-columns: auto auto;}
-    #seccionesfoot div{border-bottom: 2px solid gray;}
+    
+    
 }
 
 @media only screen and (width<600px){
