@@ -282,6 +282,8 @@ header{
 }
 /*final de la galeria*/
 
+
+/*inicio de la seccion del reparto*/
 #gridtarjeta{
 
     display: grid;
@@ -306,23 +308,32 @@ header{
     border-radius: 10px;
     margin-top: 15px;
 }
+/*fin de la seccion del reparto*/
 
 
-#pie{
+/*inicio del footer*/
+#footer{
     margin-top: 1%;
     border-top: 20px solid rgb(0, 0, 0);
     
     background-size: cover;
     background-position: center;
-    height: 10vw;
-}
-
-#footer {
     
-    width: 80%;
-    margin-left: 20%;
+    height: 100%;
+    background-color: rgb(196, 187, 30);
 }
 
+#seccionesfoot{
+    margin-left: 20%;
+    margin-right: 20%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+#seccionesfoot div{
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+/*final del footer*/
 
 
 /*fuentes de texto*/
@@ -355,11 +366,14 @@ header{
     #botonnav{width: 30%;}
     #galeria{grid-template-columns: auto auto; margin-left: 10%;}
     #gridtarjeta{grid-template-columns: auto auto;}
+    #seccionesfoot{grid-template-columns: auto auto;}
+    #seccionesfoot div{border-bottom: 2px solid gray;}
 }
 
 @media only screen and (width<600px){
     #galeria{grid-template-columns: auto ; margin-left: 15%; }
     #gridtarjeta{grid-template-columns: auto ;}
+    #seccionesfoot{grid-template-columns:  auto;}
 }
 
 
