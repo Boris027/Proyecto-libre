@@ -138,6 +138,25 @@ header{
 
 
 
+#contenedorbotonsubida{
+    position: fixed; 
+    background-color: red; 
+    bottom: 15px; 
+    right: 5px; 
+    border-radius: 15px;
+    padding: 5px;
+    
+}
+
+#botonsubida{
+    position: sticky;
+     bottom: 5px; 
+     width: 40px;
+     padding-top: 10px;
+     display: block;
+     
+}
+
 
 
 
