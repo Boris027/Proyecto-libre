@@ -276,7 +276,7 @@ header{
     border: 15px solid red;
     margin-bottom: 15px;
     animation-name: hola;
-    animation-duration: 3s;
+    animation-duration: 8s;
     animation-iteration-count: infinite;
     
 }
@@ -410,9 +410,8 @@ transition: 1s;}
 @media only screen and (height<470px){
    
     #hero button{top:80%}
-    #nav{visibility: visible;}
     #navlist{visibility: hidden;}
-    #botonnav{visibility: hidden;}
+    
 }
 
 @media only screen and (height<200px){

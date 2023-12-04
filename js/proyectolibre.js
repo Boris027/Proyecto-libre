@@ -9,6 +9,7 @@ function ocultar(element){
 function overflow(){
     var body = document.body;
     body.style.overflow = 'hidden';
+    navlist.style.overflow='scroll'
 }
 
 function overflowexit(){
