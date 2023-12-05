@@ -137,6 +137,10 @@ html { scroll-behavior: smooth; }
 
     #navlist a:hover{color: white;}
     
+    
+
+   
+    
 /*aqui termina todo el formateo del sidebar*/
 
 
@@ -149,7 +153,7 @@ html { scroll-behavior: smooth; }
         right: 5px; 
         border-radius: 15px;
         padding: 5px;
-    
+        z-index: 100;
     }
 
     #botonsubida{
@@ -292,9 +296,15 @@ html { scroll-behavior: smooth; }
         animation-name: hola;
         animation-duration: 8s;
         animation-iteration-count: infinite;
-        
+        transition: 1s;
     }
 
+    #galeria img:hover{
+        width: 110%;
+        margin-left: -14%;
+        transition: 1s;
+        z-index: 95;
+    }
     @keyframes hola{
         50%{border: 15px solid yellow;}
     }
