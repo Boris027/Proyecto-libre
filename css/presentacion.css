@@ -4,374 +4,379 @@
 /*                    Version: 2.0                      */
 /*   comment: project for Lenguajes de Marcas - 1ºDAM   */   
 /********************************************************/ 
+
+
 *{box-sizing: border-box;}
 html { scroll-behavior: smooth; }
 
+
 /*el body, esto nos permitirá que el margen sea 0 y padding 0, esto ayuda para hacer el topnav*/
-body{
-    
-    margin: 0; padding: 0;
-    font-family: sans-serif;
-    background-color: #C4080A;
-}
+    body{
+        
+        margin: 0; padding: 0;
+        font-family: sans-serif;
+        background-color: #C4080A;
+    }
+/*final de esta seccion*/
+
 
 /* estilar la a es para que cuando introduzca un enlace, salga el texto de color negro y sin el subtitulo*/
-a{
-    text-decoration: none;
-    color: Black;
-    margin-right: 10px;
-}
+    a{
+        text-decoration: none;
+        color: Black;
+        margin-right: 10px;
+    }
+/*final de esta seccion*/
 
 /*aqui empieza todo el formateo del topnav*/
-header{
-    font-family: textonormal;
-    display: flex;
-    height: 70px;
-    background-color: #C4080A;
-    
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    z-index: 100; 
-}
-.logo{
-    display: flex;
-    align-items: center;
-    
-}
+    header{
+        font-family: textonormal;
+        display: flex;
+        height: 70px;
+        background-color: #C4080A;
+        
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        z-index: 100; 
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        
+    }
 
-.logo img{
-    height: 50px;
-    margin-right: 10px;
-}
+    .logo img{
+        height: 50px;
+        margin-right: 10px;
+    }
 
-.imagen{
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
+    .imagen{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
 /*aqui termina todo el formateo del topnav*/
 
 
 
 /*aqui empieza todo el formateo del sidebar*/
 
-#contenedorsidebar{
-    position:fixed; 
-    right: 5px; 
-    top: 15px;
+    #contenedorsidebar{
+        position:fixed; 
+        right: 5px; 
+        top: 15px;
+        
+    }
+    #nav{
+        
+        font-family: textonormal;
+        position: sticky;
+        top: 0;
+        right: 2%;
+        visibility: visible;
+        z-index: 100;
     
-}
-#nav{
-    
-    font-family: textonormal;
-    position: sticky;
-    top: 0;
-    right: 2%;
-    visibility: visible;
-    z-index: 100;
-   
-}
+    }
 
-#botonnav{
-    position: sticky;
-    top: 0;
-    left: 100%;
-    width: 25%;
-    visibility: hidden;
-    text-align: right;
-    
-}
-#botonnav img{
-    
-    background-color: red;
-    padding: 5px;
-    border-radius: 15px;
-    
-    
-}
-#navlist img{
-    
-    position: sticky;
-    
-    width: 20%; 
-    top: 0;
-    left: 90%;
-    
-}
+    #botonnav{
+        position: sticky;
+        top: 0;
+        left: 100%;
+        width: 25%;
+        visibility: hidden;
+        text-align: right;
+        
+    }
+    #botonnav img{
+        
+        background-color: red;
+        padding: 5px;
+        border-radius: 15px;
+        
+        
+    }
+    #navlist img{
+        
+        position: sticky;
+        
+        width: 20%; 
+        top: 0;
+        left: 90%;
+        
+    }
 
-#navlist li{
-    list-style-type: none;
-    text-decoration: none;
-    position: sticky;
+    #navlist li{
+        list-style-type: none;
+        text-decoration: none;
+        position: sticky;
+        
+        font-family: textonormal;
+        padding-top: 10px;
+        
+    }
+    #navlist h1{
+        border-bottom: 5px solid black;
+        display: block;
+
+    }
+    #navlist{
+        
+        position: fixed;
+        visibility: hidden;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #C4080A;
+        margin-left: 70%;
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax  rgba(0,0,0,.5);
+        z-index: 100;
+        
+    }
+
+    #navlist a:hover{color: white;}
     
-    font-family: textonormal;
-    padding-top: 10px;
-    
-}
-#navlist h1{
-    border-bottom: 5px solid black;
-    display: block;
-
-}
-#navlist{
-    
-    position: fixed;
-    visibility: hidden;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #C4080A;
-    margin-left: 70%;
-    padding: 2rem;
-    box-shadow: 0 0 0 100vmax  rgba(0,0,0,.5);
-    z-index: 100;
-    
-}
-
-#navlist a:hover{color: white;}
-
-
-
-
 /*aqui termina todo el formateo del sidebar*/
 
 
+/*aqui empieza el boton de abajo a la derecha que permite subir automaticamente al top*/
 
-#contenedorbotonsubida{
-    position: fixed; 
-    background-color: red; 
-    bottom: 15px; 
-    right: 5px; 
-    border-radius: 15px;
-    padding: 5px;
+    #contenedorbotonsubida{
+        position: fixed; 
+        background-color: red; 
+        bottom: 15px; 
+        right: 5px; 
+        border-radius: 15px;
+        padding: 5px;
     
-}
+    }
 
-#botonsubida{
-    position: sticky;
-     bottom: 5px; 
-     width: 40px;
-     padding-top: 10px;
-     display: block;
-     
-}
+    #botonsubida{
+        position: sticky;
+         bottom: 5px; 
+         width: 40px;
+         padding-top: 10px;
+         display: block;
+         margin-bottom: -10px;
+    }
 
-
+/*aqui termina el boton de abajo a la derecha que permite subir automaticamente al top*/
 
 
 
 /*esta es la seccion hero y su formateo*/
-#hero{
-    
-    background-image: url(../img/Flash.jpg);
-    background-size: cover;
-    background-position: right;
-    height: 95vh;
-    border-bottom: 20px solid rgb(0, 0, 0);
-    
-}
-
-#hero h1{
-    font-family: textonormal;
-    visibility: visible;
-    text-align: center;
-    transform:translate(-50%,-50%);
-    position: absolute;
-    color: #ffffff;
-    left: 50%;
-    top: 50%;
-    font-size:1.8em ;
-    
-}
-#hero button{
-    font-family: textonormal;
-    visibility: visible;
-    transform:translate(-50%,-50%);
-    position: absolute;
-    top: 62%;
-    left: 50%;
-    border-color: aqua;
-    border:none;
-    border-radius: 20px;
-    padding:10px 30px;
-    font-size:1.8em ;
-    transition: 1s;
-}
-#hero button:hover {background-color: #C4080A;
-    font-size: 2em;
-    transition: 1s;
+    #hero{
+        background-image: url(../img/Flash.jpg);
+        background-size: cover;
+        background-position: right;
+        height: 95vh;
+        border-bottom: 20px solid rgb(0, 0, 0);
+    }
+    #hero h1{
+        font-family: textonormal;
+        visibility: visible;
+        text-align: center;
+        transform:translate(-50%,-50%);
+        position: absolute;
+        color: #ffffff;
+        left: 50%;
+        top: 50%;
+        font-size:1.8em ;  
+    }
+    #hero button{
+        font-family: textonormal;
+        visibility: visible;
+        transform:translate(-50%,-50%);
+        position: absolute;
+        top: 62%;
+        left: 50%;
+        border-color: aqua;
+        border:none;
+        border-radius: 20px;
+        padding:10px 30px;
+        font-size:1.8em ;
+        transition: 1s;
+    }
+    #hero button:hover {
+        background-color: #C4080A;
+        font-size: 2em;
+        transition: 1s;
     }
 
 /*el fin de la seccion hero*/
 
 
+
+
+
 /*este es el wrapper y su formateo*/
-#wrapsecciones{
-    font-family: textonormal;
-    border-radius: 10px;
-    text-align: center;
-    
-    background-color: #ffffff;
-    margin: auto;
-    margin-top: 2%;
-    width: 70%;
-    border-bottom: 20px solid white;
-    
-}
+    #wrapsecciones{
+        font-family: textonormal;
+        border-radius: 10px;
+        text-align: center;
+        background-color: #ffffff;
+        margin: auto;
+        margin-top: 2%;
+        width: 70%;
+        border-bottom: 20px solid white;
+    }
 
-#wrapsecciones p{
-   margin-left: 10%;
-   margin-right: 10%;
-
-}
-
-
-
-#section1 img{
-    margin-top: 10px;
-    position: relative;
-    margin-bottom: -10px;
-    
-    
-    
-    width: 20%;
-    visibility: visible;
-    z-index: 0;
-}
-
-/*este es el formate del wrapper que hace que todos los titulos tengan ese tamaño y subtitulo rojo*/
-#wrapsecciones h1{
-    padding-top: 4%;
-   
-    text-align: center;
-    border-bottom: #C4080A solid  5px;
-    margin-left: 35%;
-    margin-right: 35%;
-    
-}
-/*fin formateo titulo wrapper*/
-
-#section1 p{
-    
-    text-align: center;
-    
-}
-
-#section2 img{
-    position: relative;
-    width: 10%;
-    z-index: 0;
-}
-
-
-#section3 li{
-    
-    padding-top: 10%;
-    text-align: left;
-    
-}
-#section3 ul{
-    list-style-image: url(../img/rayo\ ul.png);
-    
-    margin-left: 35%;
-    margin-right: 35%;
-    
-}
-
-
-
-
-/*toda la galeria*/
-#galeria{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    
-    margin-left: 7%;
-    
-}
-#galeria img{
-    width: 80%;
-    border: 15px solid red;
-    margin-bottom: 15px;
-    animation-name: hola;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    
-}
-
-@keyframes hola{
-    50%{border: 15px solid yellow;}
-}
-/*final de la galeria*/
-
-
-/*inicio de la seccion del reparto*/
-#gridtarjeta{
-
-    display: grid;
-    grid-template-columns: auto auto auto ;
-}
-#gridtarjeta img{
-    
-    padding-top: 15px;
-    width: 50%;
-    border-radius:  50%;
-    
-}
-#gridtarjeta h2{
+    #wrapsecciones p{
     margin-left: 10%;
     margin-right: 10%;
-    border-bottom: 3px solid black;
-}
-#recuadro{
-    margin-left: 5%;
-    margin-right: 5%;
-    background-color: #C4080A;
-    border-radius: 10px;
-    margin-top: 15px;
-}
-/*fin de la seccion del reparto*/
+
+    }
+
+
+    /*este es el formateo del wrapper que hace que todos los titulos tengan ese tamaño y subtitulo rojo*/
+        #wrapsecciones h1{
+            padding-top: 4%;
+    
+            text-align: center;
+            border-bottom: #C4080A solid  5px;
+            margin-left: 35%;
+            margin-right: 35%; 
+        }
+
+    /*final de esta seccion*/
+
+/*fin formateo titulo wrapper*/
+
+
+/*formateo general de las primeras 3 secciones*/
+    #section1 p{
+        text-align: center;
+    }
+    #section1 img{
+        margin-top: 10px;
+        position: relative;
+        margin-bottom: -10px;
+        width: 20%;
+        visibility: visible;
+        z-index: 0;
+    }
+
+    #section2 img{
+        position: relative;
+        width: 10%;
+        z-index: 0;
+    }
+
+    #section3 li{
+        padding-top: 10%;
+        text-align: left;
+    }
+    #section3 ul{
+        list-style-image: url(../img/rayo\ ul.png);
+        margin-left: 35%;
+        margin-right: 35%; 
+    }
+
+/*fin formateo general de las primeras 3 secciones*/
+
+
+
+/*toda la galeria/seccion4*/
+    #galeria{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        
+        margin-left: 7%;
+        
+    }
+    #galeria img{
+        width: 80%;
+        border: 15px solid red;
+        margin-bottom: 15px;
+        animation-name: hola;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+        
+    }
+
+    @keyframes hola{
+        50%{border: 15px solid yellow;}
+    }
+/*final de la galeria/seccion4*/
+
+
+/*inicio de la seccion del reparto/seccion5*/
+    #gridtarjeta{
+
+        display: grid;
+        grid-template-columns: auto auto auto ;
+    }
+    #gridtarjeta img{
+        
+        padding-top: 15px;
+        width: 50%;
+        border-radius:  50%;
+        
+    }
+    #gridtarjeta h2{
+        margin-left: 10%;
+        margin-right: 10%;
+        border-bottom: 3px solid black;
+    }
+    #recuadro{
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color: #C4080A;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+/*fin de la seccion del reparto/seccion5*/
 
 
 /*inicio del footer*/
-#footer{
-    font-family: textonormal;
-    margin-top: 1%;
-    border-top: 20px solid rgb(0, 0, 0);
-    
-    background-size: cover;
-    background-position: center;
-    
-    height: 100%;
-    background-color: rgb(196, 187, 30);
-}
+    #footer{
+        font-family: textonormal;
+        margin-top: 1%;
+        border-top: 20px solid rgb(0, 0, 0);
+        
+        background-size: cover;
+        background-position: center;
+        
+        height: 100%;
+        background-color: rgb(196, 187, 30);
+    }
 
-#seccionesfoot{
-    margin-left: 20%;
-    margin-right: 20%;
-    display: grid;
-    grid-template-columns: auto auto auto;
-}
+    #seccionesfoot{
+        margin-left: 20%;
+        margin-right: 20%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
 
-#seccionesfoot p{display: block; margin: auto;
-padding-top: 10px;}
-#seccionesfoot div{
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-}
+    #seccionesfoot p{
+        display: block; 
+        margin: auto;
+        padding-top: 10px;
+    }
 
-#seccionesfoot img{width: 40px;
-transition: 1s;}
+    #seccionesfoot div{
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+    }
 
-#redes img{padding-top: 15px; padding-right: 10px; padding-bottom: 10px;}
+    #seccionesfoot img{
+        width: 40px;
+        transition: 1s;
+    }
 
-#redes img:hover{
-    width: 60px;
-    transition: 1s;
-    padding-bottom: 5px;
-}
+    #redes img{
+        margin-top: 15px; 
+        padding-right: 10px; 
+        margin-bottom: 10px; 
+    }
+
+    #redes img:hover{
+        width: 60px;
+        transition: 1s;
+        padding-bottom: 5px;
+    }
 /*final del footer*/
 
 
@@ -382,64 +387,64 @@ transition: 1s;}
 
 
 /*fuentes de texto*/
-@font-face {
-    font-family: textonormal;
-    src: url(../fonts/Diary\ Santa.ttf);
-}
+    @font-face {
+        font-family: textonormal;
+        src: url(../fonts/Diary\ Santa.ttf);
+    }
+/*fin fuentes de texto*/
+
+/*responsividad para movil y responsividad general*/
+    @media only screen and (width<1000px){
+        #hero h1{font-size: 1.5em;}
+        #hero button {font-size:1em ;}
+        #section1 img{width: 50%;}
+        #wrapsecciones h1{margin-left: 20%; margin-right: 20%;}
+        #wrapsecciones{width: 90%;}
+        #section2 img{width: 20%;}
+        #section3 ul{margin-left: 20%; margin-right: 20%;}
+        #nav{visibility: hidden;}
+        #botonnav{visibility: visible;}
+        #botonnav{width: 30%;}
+        #seccionesfoot{grid-template-columns: auto ;}
+        #seccionesfoot div{border-bottom: 2px solid gray;}
+    }
+
+    @media only screen and (width<700px){
+        #hero h1{font-size: 1em;}
+        #hero button {font-size:0.8em ;}
+        
+        #section1 h1{margin-left: 5%; margin-right: 5%;}
+        #section3 ul{margin-left: 10%; margin-right: 10%;}
+        #botonnav{width: 30%;}
+        #galeria{grid-template-columns: auto auto; margin-left: 10%;}
+        #gridtarjeta{grid-template-columns: auto auto;}
+        
+        
+    }
+
+    @media only screen and (width<600px){
+        #galeria{grid-template-columns: auto ; margin-left: 15%; }
+        #gridtarjeta{grid-template-columns: auto ;}
+        #seccionesfoot{grid-template-columns:  auto;}
+        #redes p{display: block; margin-left: 20%;}
+        #desplazamiento{margin-left: 20%;}
+        
+    }
 
 
-/*responsividad para movil */
-@media only screen and (width<1000px){
-    #hero h1{font-size: 1.5em;}
-    #hero button {font-size:1em ;}
-    #section1 img{width: 50%;}
-    #wrapsecciones h1{margin-left: 20%; margin-right: 20%;}
-    #wrapsecciones{width: 90%;}
-    #section2 img{width: 20%;}
-    #section3 ul{margin-left: 20%; margin-right: 20%;}
-    #nav{visibility: hidden;}
-    #botonnav{visibility: visible;}
-    #botonnav{width: 30%;}
-    #seccionesfoot{grid-template-columns: auto ;}
-    #seccionesfoot div{border-bottom: 2px solid gray;}
-}
-
-@media only screen and (width<700px){
-    #hero h1{font-size: 1em;}
-    #hero button {font-size:0.8em ;}
+    @media only screen and (height<470px){
     
-    #section1 h1{margin-left: 5%; margin-right: 5%;}
-    #section3 ul{margin-left: 10%; margin-right: 10%;}
-    #botonnav{width: 30%;}
-    #galeria{grid-template-columns: auto auto; margin-left: 10%;}
-    #gridtarjeta{grid-template-columns: auto auto;}
-    
-    
-}
+        #hero button{top:80%}
+        #navlist{visibility: hidden;}
+        
+    }
 
-@media only screen and (width<600px){
-    #galeria{grid-template-columns: auto ; margin-left: 15%; }
-    #gridtarjeta{grid-template-columns: auto ;}
-    #seccionesfoot{grid-template-columns:  auto;}
-    #redes p{display: block; margin-left: 20%;}
-    #desplazamiento{margin-left: 20%;}
+    @media only screen and (height<200px){
     
-}
-
-
-@media only screen and (height<470px){
-   
-    #hero button{top:80%}
-    #navlist{visibility: hidden;}
-    
-}
-
-@media only screen and (height<200px){
-   
-    #hero button{top:90%}
-    
-}
-
+        #hero button{top:90%}
+        
+    }
+/*fin responsividad para movil y responsividad general*/
 
 
 
