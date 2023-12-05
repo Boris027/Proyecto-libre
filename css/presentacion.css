@@ -399,6 +399,7 @@ transition: 1s;}
     #section3 ul{margin-left: 20%; margin-right: 20%;}
     #nav{visibility: hidden;}
     #botonnav{visibility: visible;}
+    #botonnav{width: 30%;}
     #seccionesfoot{grid-template-columns: auto ;}
     #seccionesfoot div{border-bottom: 2px solid gray;}
 }
