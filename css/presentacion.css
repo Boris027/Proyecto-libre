@@ -96,6 +96,11 @@ html { scroll-behavior: smooth; }
         
         
     }
+
+    #botonnav img:active{
+        background-color: rgb(196, 187, 30);
+        transition: 0.1s;
+    }
     #navlist img{
         
         position: sticky;
@@ -165,6 +170,10 @@ html { scroll-behavior: smooth; }
          margin-bottom: -10px;
     }
 
+    #contenedorbotonsubida:active{
+        background-color: rgb(196, 187, 30);
+        transition: 0.1s;
+    }
 /*aqui termina el boton de abajo a la derecha que permite subir automaticamente al top*/
 
 
@@ -340,6 +349,8 @@ html { scroll-behavior: smooth; }
         border-radius: 10px;
         margin-top: 15px;
     }
+
+    
 /*fin de la seccion del reparto/seccion5*/
 
 
