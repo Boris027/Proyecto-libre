@@ -99,7 +99,7 @@ html { scroll-behavior: smooth; }
 
     #botonnav img:active{
         background-color: rgb(196, 187, 30);
-        transition: 0.1s;
+        transition: 0.5s;
     }
     #navlist img{
         
@@ -172,7 +172,7 @@ html { scroll-behavior: smooth; }
 
     #contenedorbotonsubida:active{
         background-color: rgb(196, 187, 30);
-        transition: 0.1s;
+        transition: 0.5s;
     }
 /*aqui termina el boton de abajo a la derecha que permite subir automaticamente al top*/
 
@@ -308,12 +308,12 @@ html { scroll-behavior: smooth; }
         transition: 1s;
         
         
-        filter: invert(100deg);
+        
     }
 
     #galeria img:hover{
         width: 110%;
-        margin-left: -16%;
+        margin-left: -14%;
         transition: 1s;
         z-index: 95;
         
