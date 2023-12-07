@@ -127,18 +127,19 @@ html { scroll-behavior: smooth; }
         
     }
     #navlist{
-        
+        width: 0px;
         position: fixed;
         visibility: hidden;
         top: 0;
-        left: 110%;
+        right: -70px;
         bottom: 0;
         background-color: #C4080A;
-        margin-left: 70%;
+        
         padding: 2rem;
         box-shadow: 0 0 0 200vmax  rgba(0,0,0,.5);
         z-index: 101;
         transition: 2s;
+        opacity: 0;
     }
 
     #navlist a:hover{color: white;}
@@ -454,9 +455,11 @@ html { scroll-behavior: smooth; }
         #seccionesfoot{grid-template-columns:  auto;}
         #redes p{display: block; margin-left: 20%;}
         #desplazamiento{margin-left: 20%;}
-        #navlist{margin-left: 55%;}
+        
     }
 
+
+    
 
     @media only screen and (height<470px){
     
