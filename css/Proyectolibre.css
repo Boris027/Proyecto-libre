@@ -112,6 +112,7 @@ html { scroll-behavior: smooth; }
     }
 
     #navlist li{
+        text-align: left;
         list-style-type: none;
         text-decoration: none;
         position: sticky;
@@ -124,7 +125,7 @@ html { scroll-behavior: smooth; }
     #navlist h1{
         border-bottom: 5px solid black;
         display: block;
-        
+        text-align: center;
     }
     #navlist{
         width: 0px;
@@ -135,11 +136,18 @@ html { scroll-behavior: smooth; }
         bottom: 0;
         background-color: #C4080A;
         
-        padding: 2rem;
+        padding: 1rem;
         box-shadow: 0 0 0 200vmax  rgba(0,0,0,.5);
         z-index: 101;
         transition: 2s;
         opacity: 0;
+    }
+
+    #botonsalirnav img:active{
+        background-color: rgb(196, 187, 30);
+        transition: 1s;
+        padding: 3px;
+        border-radius: 10px;
     }
 
     #navlist a:hover{color: white;}

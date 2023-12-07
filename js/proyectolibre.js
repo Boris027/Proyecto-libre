@@ -21,7 +21,7 @@ function overflowexit(){
 function abrirsidebar(element){
     
     document.getElementById(element).style.right="0px";
-    document.getElementById(element).style.width="250px";
+    document.getElementById(element).style.width="240px";
     document.getElementById(element).style.opacity="1";
     document.getElementById(element).style.transition="2s";
 }
