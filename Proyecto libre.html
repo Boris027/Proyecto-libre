@@ -15,7 +15,7 @@
     <!--este es el boton del sidebar-->
     <div id="contenedorsidebar">
         <div id="botonnav" >
-                <img id="botonnav"  src="./img/menú.png" alt="menú simbolo 3 rayas" onclick="mostrar('navlist'),overflow()" >
+                <img id="botonnav"  src="./img/menú.png" alt="menú simbolo 3 rayas" onclick="mostrar('navlist'),overflow(),abrirsidebar('navlist')" >
         </div>
     </div>   
     <!--este es el fin del boton del sidebar-->
@@ -24,7 +24,7 @@
     <!--este es el principio del contenido que tiene el sidebar-->
     <nav id="navlist">
         <ul>
-            <div id="botonsalirnav" onclick="ocultar('navlist'),mostrar('letrauwu'),mostrar('botonuwu'),overflowexit()">
+            <div id="botonsalirnav" onclick="ocultar('navlist'),mostrar('letrauwu'),mostrar('botonuwu'),overflowexit(),cerrarsidebar('navlist')">
                 <img  id="botonsalirnav" src="./img/salir.png" alt="para salir">
             </div>
 
@@ -167,6 +167,7 @@
 
                     <div id="recuadro">
                         <img src="./img/tarjetas/actor flash.jpg" alt="" >
+                        
                         
                         <h2>Grant Gustin</h2>
                         <p>Como Barry Allen</p>
