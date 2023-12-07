@@ -345,20 +345,33 @@ html { scroll-behavior: smooth; }
         padding-top: 15px;
         width: 50%;
         border-radius:  50%;
-        
+        transition: 2s;
+        filter: blur(10px);
     }
+
+    #gridtarjeta img:hover{
+        transform: rotate(360deg);
+        transition: 2s;
+        filter: blur(0px);
+    }
+
     #gridtarjeta h2{
         margin-left: 10%;
         margin-right: 10%;
         border-bottom: 3px solid black;
     }
-    #recuadro{
+    .recuadro{
         margin-left: 5%;
         margin-right: 5%;
         background-color: #C4080A;
         border-radius: 10px;
         margin-top: 15px;
+        
     }
+
+    
+    
+    
 
     
 /*fin de la seccion del reparto/seccion5*/

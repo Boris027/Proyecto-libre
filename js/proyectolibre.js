@@ -33,6 +33,17 @@ function cerrarsidebar(element){
     document.getElementById(element).style.opacity="0";
 }
 
+function segundaimagen(element){
+    
+    document.getElementById(element).style.display="none";
+}
+
+function segundaimagen2(element){
+    
+    document.getElementById(element).style.display="flex";
+    
+}
+
 
 
 
