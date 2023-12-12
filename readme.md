@@ -24,6 +24,11 @@ Trabajo realizado para La asignatura: Lenguaje de Marcas, con el fin de aprender
 
 La motivacion para realizar esta página es transmitir mi emoción por uno de mis superheroes favoritos.
 
-La paleta de colores es la siguiente:
+La paleta de colores es la siguiente: 
+- Color principal: #C4080A
+- Tambien se ha usado el blanco como fondo de gran parte de la página.
+- Color de botones y footer: rgb (196, 187, 30) 
 
-Las fotos estan sacadas de la página:
+Sources:
+-Todos los iconos son de: <a href="https://www.freepik.es/">freepik<a/>
+-Todas las fotos pertenecen a: <a href="https://www.dc.com/"DC COMICS><a/>
