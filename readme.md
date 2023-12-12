@@ -15,14 +15,9 @@ Se han usado técnicas como:
 
 Y muchas mas cosas... 😯
 
-
-![uwu](https://github.com/Boris027/Proyecto-libre/assets/145535733/209116a4-ef23-493a-b31d-c1ae6ccd82ee)
-
-
-
 🢂<a href="https://boris027.github.io/Proyecto-libre/Proyecto%20libre.html">  Acceso a la página  </a>🢀
 
-
+![uwu](https://github.com/Boris027/Proyecto-libre/assets/145535733/209116a4-ef23-493a-b31d-c1ae6ccd82ee)
 
 
 Trabajo realizado para La asignatura: Lenguaje de Marcas, con el fin de aprender el máximo posible..
