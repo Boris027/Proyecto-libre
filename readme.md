@@ -30,5 +30,8 @@ La paleta de colores es la siguiente:
 - Color de botones y footer: rgb (196, 187, 30) 
 
 Sources:
--Todos los iconos son de: <a> href="https://www.freepik.es/">freepik</a>
--Todas las fotos pertenecen a: <a> href="https://www.dc.com/"DC COMICS></a>
+
+-Todos los iconos son de: <a href="https://www.freepik.es">  Freepik  </a>
+
+
+-Todas las fotos pertenecen a: <a href="https://www.dc.com/">  DC COMICS  </a>
