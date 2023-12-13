@@ -1,7 +1,7 @@
 /********************************************************/
 /*              Autor: Boris Gallego Ríos               */
 /*       stylesheet for Proyecto libre site       */
-/*                    Version: 2.0                      */
+/*                    Version: 3.0                      */
 /*   comment: project for Lenguajes de Marcas - 1ºDAM   */   
 /********************************************************/ 
 
@@ -425,6 +425,16 @@ html { scroll-behavior: smooth; }
         transition: 1s;
         padding-bottom: 5px;
     }
+
+    #commons{
+       
+    }
+
+    #commons p{
+        text-align: center;
+    }
+
+    
 /*final del footer*/
 
 
