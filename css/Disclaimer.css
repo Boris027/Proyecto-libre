@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: textonormal;
 }
 
 body{
@@ -18,22 +19,33 @@ body{
 #wrapper{
     margin: auto;
     width: 70%;
-    height: 100vh;
+   
     background-color: white;
     margin-bottom: 15px;
     border-radius: 15px;
+    padding-bottom: 20px;
 }
 
 section h1{
     text-align: center;
     margin-bottom: 15px;
     padding-top: 15px;
+    border-bottom: #C4080A solid  5px;
+            margin-left: 35%;
+            margin-right: 35%; 
     
 }
 
 section p{
     margin-left: 20%;
     margin-right: 20%;
+}
+
+section li{
+    
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 15px;
 }
 
 
@@ -48,5 +60,10 @@ section p{
         width: 95%;
     }
     
+}
+
+@font-face {
+    font-family:textonormal ;
+    src: url(../fonts/Diary\ Santa.ttf);
 }
 
