@@ -1,5 +1,7 @@
 Proyecto fin de evaluacion de Lenguaje de marcas:
 
+Trabajo realizado por Boris Gallego Ríos.
+
 Esta es una página web con la tematica del superheroe ⚡"Flash"⚡
 
 Se han usado técnicas como:
