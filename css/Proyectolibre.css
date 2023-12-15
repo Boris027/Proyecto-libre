@@ -40,6 +40,11 @@ html { scroll-behavior: smooth; }
         padding: 10px;
         z-index: 100; 
     }
+
+    header a:hover{
+        color: white;
+    }
+    
     .logo{
         display: flex;
         align-items: center;
