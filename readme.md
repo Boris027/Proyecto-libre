@@ -42,9 +42,54 @@ Y muchas mas cosas... 😯
 ![image](https://github.com/Boris027/Proyecto-libre/assets/145535733/61f57482-f420-46a4-8b9c-6ff3c66d4536)
 <p>Esta es una pequeña y simple sección que muestra un poco el contexto del protagonista, junto con una imagen. </p>
 
+<h2>¿Quienes somos?</h2>
+
+![image](https://github.com/Boris027/Proyecto-libre/assets/145535733/a8124b8f-48f0-423d-ab45-55179445774d)
+<p>Seccion que explica un poco sobre que trata esta página tematizada de flash</p>
+
+<h2>Objetivos</h2>
+
+![image](https://github.com/Boris027/Proyecto-libre/assets/145535733/bc67d26f-1de1-44fe-91a3-5f8bd8a5e9bb)
+
+<p>Seccion que muetra los objetivos de la página web</p>
+
+
+<h2>Galeria</h2>
+
+https://github.com/Boris027/Proyecto-libre/assets/145535733/000cca6a-5b0b-4723-93d4-427b3bf51c57
+
+<p>La galeria muestra una serie de carteles publicitarios de las diferentes temporadas y etapas del personaje</p>
+<p>Se han utilizado keyframes para los bordes de las imagenes, tambien se ha usado el grid y ":hover"</p>
+
+
+<h2>Reparto</h2>
+
+
+https://github.com/Boris027/Proyecto-libre/assets/145535733/d57dd40e-016c-4e2b-99e9-dffa9d42a6b0
+
+<p>Aqui aparecen algunos de los actores que dan vida a los personajes de la seria de Flash</p>
+
+
+<h2>Footer</h2>
+
+![image](https://github.com/Boris027/Proyecto-libre/assets/145535733/51d3eb50-58b0-4bc4-9b6c-1b93cf440a29)
+
+<p>Aqui aparecen un bonito footer</p>
+
+
+<h2>Code snippets</h2>
+<p>No he copiado ninguna de internet, todo lo he hecho yo.</p>
+<p>Un buen ejemplo para demostrarlo, es el sidebar (para el cual he tenido que usar JS):</p>
+
+
+https://github.com/Boris027/Proyecto-libre/assets/145535733/25bf1d76-6ecf-4c57-9362-d7ccdf6fd3ed
+
+
 
 <h2>Sources:</h2>
 
 <li>Todos los iconos son de: <a href="https://www.freepik.es">  Freepik  </a></li>
 
 <li>Todas las fotos pertenecen a: <a href="https://www.dc.com/">  DC COMICS  </a></li>
+
+
